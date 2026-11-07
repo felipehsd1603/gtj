@@ -1,0 +1,46 @@
+id,data,hora,fonte,servico,tipo,rua,duracao,trecho
+1,2026-08-09,12:36,whatsapp-amigos-do-joa,agua,falta,(não informada),,"Oii boa tarde gente, alguém está sem água aí?"
+2,2026-08-19,07:26,whatsapp-amigos-do-joa,energia,falta,(não informada),,Bom dia! Vocês estão sem luz?
+3,2026-08-19,07:59,whatsapp-amigos-do-joa,energia,funcionando,Rua Piauí,,Piauí tem luz
+4,2026-08-19,08:24,whatsapp-amigos-do-joa,energia,falta,Rua Piauí,parcial,Uai. A outra metade da Piauí está com luz
+5,2026-08-19,11:24,whatsapp-amigos-do-joa,energia,funcionando,Rua Maranhão,,Maranhão tem luz
+6,2026-08-27,09:01,whatsapp-vizinhos,energia,falta,Rua Ceará,,Sem energia por aí?
+7,2026-08-27,10:28,whatsapp-amigos-do-joa,energia,falta,Rua Sergipe,10:28 até 14:56,Alguém sem luz? [às 14:56: Na Sergipe também a luz voltou]
+8,2026-08-27,10:32,whatsapp-amigos-do-joa,energia,funcionando,Rua Um,,Rua Um tem luz
+9,2026-08-27,11:00,whatsapp-amigos-do-joa,energia,oscilacao,Rua Piauí,,Moro na rua Piauí e aqui em casa está só com meia fase
+10,2026-08-27,11:01,whatsapp-amigos-do-joa,energia,funcionando,Rua Antônio Fernandes,,Antonio Fernandes tem luz
+11,2026-08-27,11:29,whatsapp-vizinhos,energia,falta,(não informada),,Alguem tem previsão de retorno da energia? Abri o chamado na CEMIG mas sem retorno ainda
+12,2026-08-27,11:41,whatsapp-amigos-do-joa,energia,falta,Rua Piauí,,Piauí sem luz
+13,2026-08-27,13:00,whatsapp-amigos-do-joa,energia,falta,Rua Paraíba,desde 08:30,Paraíba tb sem luz desde 8:30
+14,2026-08-27,13:45,whatsapp-amigos-do-joa,energia,retorno,Rua Ceará,,Retornando agora a energia
+15,2026-08-28,17:24,whatsapp-amigos-do-joa,agua,falta,Rua Antônio Fernandes,,Alguém mais sem água? A previsão da Copasa está adiantada. [rua inferida: remetente relata sempre a Antônio Fernandes]
+16,2026-08-29,13:40,whatsapp-amigos-do-joa,agua,falta,Rua Acre,,"Não era domingo dia 30/08 que ia começar faltar água? Porque aqui na Acre, já está sem água"
+17,2026-08-29,14:31,whatsapp-amigos-do-joa,agua,falta,Rua Maranhão,desde cedo,Rua Maranhão sem água desde cedinho.
+18,2026-08-29,14:38,whatsapp-amigos-do-joa,agua,falta,Rua Antônio Fernandes,,Antônio Fernandes sem água
+19,2026-08-29,14:58,whatsapp-amigos-do-joa,agua,falta,(não informada),previsão de retorno 30/08,"Fiz a reclamação por ligação. A atendente informou que o motivo da falta de água registrado é a falta de energia, e deve retornar no dia 30/08."
+20,2026-09-02,11:06,whatsapp-amigos-do-joa,agua,falta,Rua Pará,,Pará sem água até o momento
+21,2026-09-10,17:56,whatsapp-amigos-do-joa,agua,falta,(não informada),,aqui em casa a água acabou logo depois que eu tinha acabado de lavar o banheiro. acabou aí pra vcs tbm?
+22,2026-10-08,06:37,whatsapp-amigos-do-joa,agua,falta,Rua Acre,desde a noite de 07/10,Alguém sem água? Aqui na Acre está sem água desde ontem a noite
+23,2026-10-08,08:47,whatsapp-amigos-do-joa,agua,falta,Rua Paraguai,,Na Paraguai também.
+24,2026-10-08,08:56,whatsapp-amigos-do-joa,agua,falta,(não informada),,Alguém sem água? Tem idéia da hora que volta?
+25,2026-10-08,09:36,whatsapp-amigos-do-joa,agua,falta,(não informada),"recorrente: 3 fins de semana seguidos, após 19h",Já é o terceiro fds que fica faltando água todo o dia após as 19h
+26,2026-10-08,13:58,whatsapp-amigos-do-joa,agua,falta,Rua Antônio Fernandes,desde a tarde de 07/10,Antônio Fernandes sem água desde ontem a tarde
+27,2026-10-08,17:39,whatsapp-amigos-do-joa,agua,falta,Rua Paraguai,voltou no almoço e acabou de novo,"Aqui na Paraguai, a água começou a voltar na hora do almoço e já acabou novamente"
+28,2026-10-08,19:50,whatsapp-amigos-do-joa,agua,falta,(não informada),,Sem água de novo!
+29,2026-10-08,21:01,whatsapp-amigos-do-joa,agua,falta,Rua Acre,"teve água de manhã até 14h, sem pressão",Aqui na Acre teve água de manhã até as 14 hrs (sem muita pressão) agora não tem!
+30,2026-10-17,08:18,whatsapp-amigos-do-joa,agua,falta,Rua Acre,,Alguém sem água [rua inferida: remetente relata sempre a Acre]
+31,2026-10-17,08:49,whatsapp-amigos-do-joa,agua,falta,Rua Antônio Fernandes,,Antônio Fernandes tb sem água
+32,2026-10-18,15:28,whatsapp-amigos-do-joa,energia,falta,(não informada),,A energia acabou de novo?
+33,2026-10-19,08:18,whatsapp-gtj,agua,qualidade,(não informada),,A água e muito suja
+34,2026-10-25,15:37,whatsapp-amigos-do-joa,energia,falta,(não informada),,"Pessoal, mais alguém sem energia?"
+35,2026-10-25,17:11,whatsapp-amigos-do-joa,energia,falta,Rua Antônio Fernandes,início da queda de 27h relatada em 26/10,Na Antônio Fernandes sem energia até agora
+36,2026-10-26,18:50,whatsapp-gtj,energia,falta,Rua Antônio Fernandes,27 horas,Uma parte da Antônio Fernandes e da R. Maria Raimunda sem luz a 27 horas.
+37,2026-10-26,18:50,whatsapp-gtj,energia,falta,Rua Maria Raimunda,27 horas,Uma parte da Antônio Fernandes e da R. Maria Raimunda sem luz a 27 horas.
+38,2026-10-26,19:00,whatsapp-gtj,energia,falta,Rua Acre,27 horas,uma parte da rua acre está sem luz a 27 horas tbm. Durante o dia a informação de resolver era as 17h35. Liguei agora pouco e nao tem mais previsão.
+39,2026-11-03,08:58,whatsapp-gtj,energia,falta,(não informada),,"pelo que vi nos grupos algumas ruas estao sem energia. como isso eh recorrente aqui no bairro, nao posso afirmar se eh por causa da tempestade ontem."
+40,2026-11-03,08:58,whatsapp-gtj,energia,oscilacao,(não informada),recorrente,nos momentos de picos a variacao de tensao eh enorme. as luzes ficam piscando e nao raro fica funcionando apenas uma fase. a CEMIG esteve aqui em casa fazendo as medicoes e constatou que a energia fornecida estava aquem do satisfatorio.
+41,2026-11-04,06:11,whatsapp-amigos-do-joa,energia,falta,(não informada),,Alguém sem energia? Alguém sem luz em casa?
+42,2026-11-04,06:31,whatsapp-amigos-do-joa,energia,funcionando,Rua Acre,,"Bom dia, Rua Acre tem energia"
+43,2026-11-04,06:33,whatsapp-amigos-do-joa,energia,funcionando,Rua Piauí,,Rua Piauí tem energia
+44,2026-11-07,,reuniao-2026-11-07,agua,falta,Rua Antônio Fernandes,3 dias,nós estamos três dias sem [água] lá na Antônio Fernandes
+45,2026-11-07,,reuniao-2026-11-07,energia,falta,(não informada),1 dia e meio,"a gente ficou sem luz aqui quase um dia e meio. o poste quebrou o braço que segura os fios com a força do vento, levou o fio junto e deu descarga de tensão"

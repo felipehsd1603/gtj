@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dados da ANEEL · GTJ Joá</title><link rel="stylesheet" href="style.css"><link rel="icon" href="assets/logo.png"></head>
+<body><header class="topo">
+  <a class="marca" href="index.html"><img src="assets/logo.png" alt="GTJ"> <span>GTJ · Grupo de Trabalho dos Moradores do Bairro Joá</span></a>
+  <nav>
+    <a href="index.html">Início</a>
+    <a href="mapa.html">Mapa</a>
+    <a href="ocorrencias.html">Ocorrências</a>
+    <a href="aneel.html">Dados da ANEEL</a>
+  </nav>
+</header><main>
+<h1>Interrupções de energia registradas pela ANEEL</h1>
+<p>A CEMIG é obrigada a informar à ANEEL cada interrupção de energia, com início, fim, causa e número de clientes atingidos.
+A ANEEL publica esses dados abertamente, com cerca de três meses de atraso. Aqui está o recorte de Lagoa Santa.</p>
+<div class="aviso"><b>Como ler:</b> os dados de 2025 são dos conjuntos elétricos "Lagoa Santa" e "Nova Granja", que atendem a cidade e podem incluir trechos de municípios vizinhos.
+Os dados de 2026 são filtrados pelo município de Lagoa Santa e vão até julho de 2026. Por isso os meses de 2025 e 2026 não são diretamente comparáveis.
+As quedas relatadas pelos moradores a partir de agosto de 2026 ainda não constam na base da ANEEL.</div>
+
+<h2>Interrupções por mês</h2>
+<div class="grafico"><canvas id="g1" height="110"></canvas></div>
+<table style="margin-top:14px"><thead><tr><th>Mês</th><th>Interrupções</th><th>Horas somadas</th><th>Horas por interrupção</th><th>Acima de 3 h</th><th>Clientes atingidos (soma)</th></tr></thead><tbody><tr><td>01/2025</td><td>911</td><td>6.698</td><td>7.4</td><td>549</td><td>203.145</td></tr><tr><td>02/2025</td><td>526</td><td>2.196</td><td>4.2</td><td>236</td><td>28.235</td></tr><tr><td>03/2025</td><td>765</td><td>4.253</td><td>5.6</td><td>388</td><td>125.294</td></tr><tr><td>04/2025</td><td>566</td><td>2.538</td><td>4.5</td><td>276</td><td>58.052</td></tr><tr><td>05/2025</td><td>637</td><td>2.148</td><td>3.4</td><td>226</td><td>43.557</td></tr><tr><td>06/2025</td><td>645</td><td>3.140</td><td>4.9</td><td>241</td><td>43.532</td></tr><tr><td>07/2025</td><td>596</td><td>1.935</td><td>3.2</td><td>217</td><td>44.430</td></tr><tr><td>08/2025</td><td>688</td><td>2.195</td><td>3.2</td><td>231</td><td>87.750</td></tr><tr><td>09/2025</td><td>591</td><td>2.485</td><td>4.2</td><td>247</td><td>38.659</td></tr><tr><td>10/2025</td><td>743</td><td>2.433</td><td>3.3</td><td>253</td><td>67.118</td></tr><tr><td>11/2025</td><td>847</td><td>2.625</td><td>3.1</td><td>266</td><td>36.707</td></tr><tr><td>12/2025</td><td>1264</td><td>6.383</td><td>5.0</td><td>589</td><td>219.449</td></tr><tr><td>01/2026</td><td>415</td><td>2.282</td><td>5.5</td><td>178</td><td>40.843</td></tr><tr><td>02/2026</td><td>295</td><td>1.414</td><td>4.8</td><td>150</td><td>17.233</td></tr><tr><td>03/2026</td><td>326</td><td>1.513</td><td>4.6</td><td>142</td><td>33.214</td></tr><tr><td>04/2026</td><td>249</td><td>808</td><td>3.2</td><td>81</td><td>24.183</td></tr><tr><td>05/2026</td><td>249</td><td>705</td><td>2.8</td><td>78</td><td>24.666</td></tr><tr><td>06/2026</td><td>269</td><td>949</td><td>3.5</td><td>100</td><td>23.017</td></tr><tr><td>07/2026</td><td>243</td><td>797</td><td>3.3</td><td>90</td><td>9.340</td></tr></tbody></table>
+
+<h2>Causas mais frequentes em 2025</h2>
+<table><thead><tr><th>Causa informada pela CEMIG</th><th>Interrupções</th></tr></thead><tbody><tr><td>Falha de material ou equipamento</td><td>3.827</td></tr><tr><td>Vento</td><td>984</td></tr><tr><td>Árvore ou Vegetação</td><td>814</td></tr><tr><td>Defeito interno não afetando outras unidades consumidoras</td><td>762</td></tr><tr><td>Não classificada</td><td>634</td></tr><tr><td>Animais</td><td>425</td></tr><tr><td>Para ampliação</td><td>328</td></tr><tr><td>Descarga Atmosférica</td><td>252</td></tr></tbody></table>
+<h2>Causas em 2026 (até julho)</h2>
+<table><thead><tr><th>Causa</th><th>Interrupções</th></tr></thead><tbody><tr><td>Próprias do Sistema</td><td>960</td></tr><tr><td>Meio Ambiente</td><td>467</td></tr><tr><td>Terceiros</td><td>339</td></tr><tr><td>Não Classificada</td><td>140</td></tr><tr><td>Alteração</td><td>66</td></tr><tr><td>Manutenção</td><td>65</td></tr><tr><td>Origem Externa e Tipo Programada</td><td>8</td></tr><tr><td>Falha Operacional</td><td>1</td></tr></tbody></table>
+
+<h2>Maiores interrupções de 2026 por clientes atingidos</h2>
+<table><thead><tr><th>Início</th><th>Horas</th><th>Clientes</th><th>Causa</th><th>Conjunto</th></tr></thead><tbody><tr><td>12/01/2026 17:34</td><td>1.29</td><td>6.737</td><td>Não Classificada</td><td>Nova Granja</td></tr><tr><td>27/05/2026 13:29</td><td>0.12</td><td>5.633</td><td>Meio Ambiente</td><td>Nova Granja</td></tr><tr><td>11/03/2026 18:12</td><td>0.17</td><td>5.626</td><td>Próprias do Sistema</td><td>Lagoa Santa</td></tr><tr><td>13/01/2026 09:40</td><td>0.21</td><td>4.278</td><td>Meio Ambiente</td><td>Lagoa Santa</td></tr><tr><td>03/03/2026 16:51</td><td>0.13</td><td>3.955</td><td>Não Classificada</td><td>Lagoa Santa</td></tr><tr><td>23/01/2026 14:07</td><td>0.26</td><td>3.951</td><td>Meio Ambiente</td><td>Lagoa Santa</td></tr><tr><td>06/03/2026 08:51</td><td>0.07</td><td>3.310</td><td>Próprias do Sistema</td><td>Lagoa Santa</td></tr><tr><td>04/02/2026 11:20</td><td>0.09</td><td>3.281</td><td>Meio Ambiente</td><td>Lagoa Santa</td></tr><tr><td>09/01/2026 12:57</td><td>0.09</td><td>3.242</td><td>Não Classificada</td><td>Nova Granja</td></tr><tr><td>06/03/2026 08:08</td><td>0.25</td><td>3.176</td><td>Próprias do Sistema</td><td>Lagoa Santa</td></tr></tbody></table>
+
+<p style="font-size:.9em;color:#666">Fonte: ANEEL, conjuntos de dados abertos "Interrupções de Energia Elétrica nas Redes de Distribuição" e "Ocorrências Emergenciais nas Redes de Distribuição", licença ODbL.
+Arquivos filtrados disponíveis com o GTJ.</p>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<script>
+new Chart(document.getElementById('g1'), { type: 'bar',
+  data: { labels: ["01/25", "02/25", "03/25", "04/25", "05/25", "06/25", "07/25", "08/25", "09/25", "10/25", "11/25", "12/25", "01/26", "02/26", "03/26", "04/26", "05/26", "06/26", "07/26"], datasets: [
+    { label: 'Interrupções', data: [911, 526, 765, 566, 637, 645, 596, 688, 591, 743, 847, 1264, 415, 295, 326, 249, 249, 269, 243], backgroundColor: '#c62828', yAxisID: 'y' },
+    { label: 'Horas somadas', data: [6697.8, 2195.9, 4252.6, 2538.3, 2147.6, 3139.5, 1934.6, 2195.2, 2485.4, 2433.1, 2625.2, 6383.1, 2282.2, 1413.9, 1513.4, 808.3, 704.9, 948.6, 796.6], type: 'line', borderColor: '#f29c1f', backgroundColor: '#f29c1f', yAxisID: 'y2', tension: .3 } ] },
+  options: { responsive: true, scales: { y: { beginAtZero: true, title: { display: true, text: 'Interrupções' } },
+    y2: { beginAtZero: true, position: 'right', grid: { drawOnChartArea: false }, title: { display: true, text: 'Horas' } } } } });
+</script></main><footer class="rodape">
+  Iniciativa de moradores dos bairros Joá e Várzea, Lagoa Santa/MG. Sem fins lucrativos e sem vínculo político.
+  Atualizado em 07/11/2026. Fontes: relatos dos moradores nos grupos de WhatsApp, reuniões do GTJ e dados abertos da ANEEL.
+</footer></body></html>

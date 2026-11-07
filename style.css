@@ -1,0 +1,29 @@
+
+:root { --vermelho:#c62828; --azul:#1565c0; --verde:#7ab32e; --laranja:#f29c1f; --cinza:#555; --fundo:#f6f7f9; }
+* { box-sizing: border-box; }
+body { margin:0; font-family: Arial, Helvetica, sans-serif; color:#222; background: var(--fundo); line-height:1.5; }
+.topo { background:#fff; border-bottom:4px solid var(--azul); padding:10px 20px; display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:10px; }
+.marca { display:flex; align-items:center; gap:10px; text-decoration:none; color:#222; font-weight:bold; }
+.marca img { height:44px; }
+nav a { margin-left:14px; text-decoration:none; color:var(--azul); font-weight:bold; }
+nav a:hover { text-decoration:underline; }
+main { max-width: 1100px; margin: 0 auto; padding: 20px; }
+h1 { color: var(--azul); margin: 10px 0; }
+h2 { color: var(--cinza); font-size: 1.2em; margin-top: 28px; border-bottom: 1px solid #ddd; padding-bottom: 4px; }
+.cards { display:grid; grid-template-columns: repeat(auto-fit, minmax(200px,1fr)); gap:14px; margin:16px 0; }
+.card { background:#fff; border-radius:8px; padding:14px 16px; box-shadow:0 1px 3px rgba(0,0,0,.12); border-top:4px solid var(--cinza); }
+.card.energia { border-color: var(--vermelho); } .card.agua { border-color: var(--azul); } .card.aneel { border-color: var(--laranja); } .card.ok { border-color: var(--verde); }
+.card .n { font-size: 2em; font-weight: bold; } .card .t { color: var(--cinza); font-size: .9em; }
+.botoes a { display:inline-block; margin:6px 8px 6px 0; padding:10px 16px; background:var(--azul); color:#fff; border-radius:6px; text-decoration:none; font-weight:bold; }
+.botoes a.sec { background:#fff; color:var(--azul); border:2px solid var(--azul); }
+table { border-collapse: collapse; width: 100%; background:#fff; font-size:.92em; }
+th, td { padding: 6px 8px; border-bottom: 1px solid #e5e5e5; text-align: left; vertical-align: top; }
+th { background: #eef2f7; position: sticky; top: 0; }
+tr.energia td:first-child { border-left: 4px solid var(--vermelho); } tr.agua td:first-child { border-left: 4px solid var(--azul); }
+.filtros { margin: 10px 0; } .filtros button { margin-right: 6px; padding: 6px 12px; border: 1px solid #bbb; background: #fff; border-radius: 4px; cursor: pointer; }
+.filtros button.ativo { background: var(--azul); color: #fff; border-color: var(--azul); }
+.aviso { background:#fff8e1; border-left:4px solid var(--laranja); padding:10px 14px; border-radius:4px; margin:14px 0; font-size:.95em; }
+.rodape { text-align:center; color:#777; font-size:.85em; padding:24px; }
+.grafico { background:#fff; padding:14px; border-radius:8px; box-shadow:0 1px 3px rgba(0,0,0,.12); }
+ul.lista li { margin: 4px 0; }
+@media (max-width: 600px) { nav a { margin-left: 8px; } main { padding: 12px; } }
