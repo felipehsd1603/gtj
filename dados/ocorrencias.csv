@@ -44,3 +44,6 @@ id,data,hora,fonte,servico,tipo,rua,duracao,trecho
 43,2026-11-04,06:33,whatsapp-amigos-do-joa,energia,funcionando,Rua Piauí,,Rua Piauí tem energia
 44,2026-11-07,,reuniao-2026-11-07,agua,falta,Rua Antônio Fernandes,3 dias,nós estamos três dias sem [água] lá na Antônio Fernandes
 45,2026-11-07,,reuniao-2026-11-07,energia,falta,(não informada),1 dia e meio,"a gente ficou sem luz aqui quase um dia e meio. o poste quebrou o braço que segura os fios com a força do vento, levou o fio junto e deu descarga de tensão"
+46,2026-10-13,,relato-direto-2026-11-07,agua,falta,Rua Joá,,Rua Joá sem água (relato direto; faltou em diversos dias)
+47,2026-10-20,,relato-direto-2026-11-07,agua,falta,Rua Joá,,Rua Joá sem água (relato direto; faltou em diversos dias)
+48,2026-10-22,,relato-direto-2026-11-07,agua,falta,Rua Joá,,Rua Joá sem água (relato direto; faltou em diversos dias)
